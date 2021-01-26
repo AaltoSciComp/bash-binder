@@ -51,3 +51,4 @@ RUN adduser --disabled-password \
     ${NB_USER}
 WORKDIR ${HOME}
 USER ${USER}
+ENV PS1 "\w$ "
